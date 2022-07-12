@@ -1,0 +1,32 @@
+CREATE TABLE menu_item
+(
+    iID INT PRIMARY KEY AUTO_INCREMENT,
+	iName CHAR(20) NOT NULL,
+	iDesc CHAR(200) NOT NULL,
+	iIngre CHAR (250) NOT NULL,
+	iPrice FLOAT NOT NULL
+);
+
+INSERT INTO menu_item(iID, iName, iDesc, iIngre, iPrice)
+VALUES(001, 'Water', 'It is just water, there is nothing to explain or describe.', '100% Water', 2.00);
+
+INSERT INTO menu_item(iID, iName, iDesc, iIngre, iPrice)
+VALUES(002, 'Iced Tea', 'Iced tea, peach or lemon flavoured', 'Water, fructose, citric acid, lemon juice concentrate, natural flavour, tea, potassium, sugar.', 2.95);
+
+INSERT INTO menu_item(iName, iDesc, iIngre, iPrice)
+VALUES('Tea and Coffee', 'White, Green and Black Tea available. Black coffee, Cappucino and Espresso available', 'Tea leaves, Coffee Beans, Plant-based and regular milk. ', 3.50);
+
+INSERT INTO menu_item(iName, iDesc, iIngre, iPrice)
+VALUES('Sandwiches', 'Customise your sandwich with the choices below.', 'White or Oatmeal bread, Ham, Chicken, Bacon, Tuna, Lettuce, Spinach, Alfalfa sprouts, Tomatoes, Peppers, Onions, Hummus, Tofu, Mushrooms, Mayonnaise, Ranch dressing.', 3.95);
+
+INSERT INTO menu_item(iName, iDesc, iIngre, iPrice)
+VALUES('Wraps', 'Customise your wrap with the choices below.', 'White or Oatmeal wrap, Ham, Chicken, Bacon, Tuna, Lettuce, Avacado, Spinach, Tomatoes, Peppers, Onions, Hummus, Tofu, Mushrooms, Mayonnaise, Ranch dressing.', 4.95);
+
+INSERT INTO menu_item(iName, iDesc, iIngre, iPrice)
+VALUES('Pasta Salad', 'Customise your pasta salad with the choices below.', 'White or Brown pasta, Ham, Chicken, Bacon, Tuna, Avacado, Spinach, Tomatoes, Peppers, Onions, Hummus on the side, Tofu, Mushrooms, Pesto, Tomato and Basil Sauce', 5.95);
+
+INSERT INTO menu_item(iName, iDesc, iIngre, iPrice)
+VALUES('Cake Slices', 'Victoria Sponge, Chocolate, Red Velvet, Coffee and Vanilla flavours available. Vegan and Gluten Free options available', 'Flour, Eggs, Water, Milk, Flax Seeds, Cocoa powder, Coffee powder, Jam, Vanilla, Cream. ', 2.55);
+
+INSERT INTO menu_item(iName, iDesc, iIngre, iPrice)
+VALUES('Ice Cream', 'Chocolate, Strawberry, Red Velvet, Coffee, Vanilla, Mint flavours available. Vegan and Gluten Free options available', 'Milk, Flax Seeds, Cocoa powder, Coffee powder, Stawberry Jam, Vanilla beans, Cream, Mint. ', 0.95);

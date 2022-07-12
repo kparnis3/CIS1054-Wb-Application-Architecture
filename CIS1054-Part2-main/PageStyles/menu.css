@@ -1,0 +1,57 @@
+.fullMenu
+{
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.menuWrapper
+{
+	width: 30%;
+	margin: 10px 10px 10px 10px;
+	padding: 10px;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+}
+
+img
+{
+  width: 100%;
+  height: auto;
+}
+
+input[type=submit]
+{
+  background-color: #5C164E;
+  color: #170F11;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover
+{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.itemWrapper
+{
+	width: 50%;
+	margin: auto;
+	background: #B097B3;
+	color: #E2FCEF;
+	overflow: hidden;
+	padding: 20px;
+	text-align: left;
+}
+
+
+
+
+
+

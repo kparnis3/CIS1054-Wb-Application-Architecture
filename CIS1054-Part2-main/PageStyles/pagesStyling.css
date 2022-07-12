@@ -1,0 +1,138 @@
+
+.contactForm 
+{
+	width: 50%;
+	margin: auto;
+	background: #b097b3;
+	color: #E2FCEF;
+	overflow: hidden;
+	padding: 20px;
+	text-align: center;
+}
+
+.loginSection 
+{
+	width: 50%;
+	margin: auto;
+	background: #b097b3;
+	color: #E2FCEF;
+	overflow: hidden;
+	padding: 20px;
+    text-align: center;
+}
+
+.registerSection
+{
+	width: 50%;
+	margin: auto;
+	background: #b097b3;
+	color: #e2fcef;
+	overflow: hidden;
+	padding: 20px;
+	text-align: center;
+}
+
+.changePassWrapper
+{
+	width: 50%;
+	margin: auto;
+	background: #b097b3;
+	color: #E2FCEF;
+	overflow: hidden;
+	padding: 20px;
+	text-align: center;
+}
+
+.logoutWrapper
+{
+	width: 50%;
+	margin: auto;
+	background: #b097b3;
+	color: #E2FCEF;
+	overflow: hidden;
+	padding: 20px;
+	text-align: center;
+}
+
+.favListWrapper
+{
+	width: 50%;
+	margin: auto;
+	background: #b097b3;
+	color: #E2FCEF;
+	overflow: hidden;
+	padding: 20px;
+	text-align: center;
+}
+
+.favouritesWrapper
+{
+	width: 50%;
+	margin: auto;
+	background: #b097b3;
+	color: #E2FCEF;
+	overflow: hidden;
+	padding: 20px;
+	text-align: left;
+}
+
+.changeUserDetailsWrapper
+{
+	width: 50%;
+	margin: auto;
+	background: #b097b3;
+	color: #E2FCEF;
+	overflow: hidden;
+	padding: 20px;
+	text-align: center;
+}
+
+input[type=text], input[type=email], input[type=password], select, textarea
+{
+  width: 50%;
+  padding: 12px;
+  border: 1px solid rgb(5, 5, 5);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea
+{
+	height: 300px;
+}
+
+input[type=submit]
+{
+  background-color: #E2FCEF;
+  color: #170F11;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover
+{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+
+button[type=submit]
+{
+  background-color: #E2FCEF;
+  color: #170F11;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover
+{
+  background-color: #000000;
+  color: #FFFFFF;
+}

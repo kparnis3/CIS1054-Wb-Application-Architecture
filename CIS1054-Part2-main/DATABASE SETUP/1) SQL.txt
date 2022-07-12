@@ -1,0 +1,11 @@
+CREATE TABLE login (
+    usr_id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    usr_name varchar(256) not null,
+    usr_surname varchar(256) not null,
+    usr_email varchar(256) not null,
+    usr_nmb varchar(256) not null,
+    usr_pwd varchar(256) not null
+    );
+
+
+

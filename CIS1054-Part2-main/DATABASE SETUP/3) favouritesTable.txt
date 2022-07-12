@@ -1,0 +1,10 @@
+CREATE TABLE favourites
+(
+    iID INT NOT NULL,
+    userID INT NOT NULL,
+    FOREIGN KEY (iID) REFERENCES menu_item(iID),
+    FOREIGN KEY (userId) REFERENCES login(usr_id)
+);
+
+INSERT INTO favourites(iID, userID)
+VALUES(6,1); /*FOR TESTING*/
