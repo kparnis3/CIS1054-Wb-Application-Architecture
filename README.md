@@ -68,19 +68,18 @@ data types and fields.
 ### A General Overview
 
 The following Use-Case-Diagram depicts a top-level view of the basic functions and interactions.
-
-![image](https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/2ae8e395-107a-4a84-8b99-2992527e3f6a)
-
+<p align="center">
+<img src="https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/2ae8e395-107a-4a84-8b99-2992527e3f6a" width="500">
+</p>
 ### Structure of Data
 
 The following Data-Structure-Diagrams depicts how the data in the database was modelled prior to implementation
 and the result after implementation.
-
-![image](https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/678b2c74-1f8c-4568-a34f-6d3cfa829024)
-
-![image](https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/8ecde853-692a-4201-8d18-de1545b0ae7b)
-
-![image](https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/a57241f8-137f-4276-a305-f6bf0ea78cfe)
+<p align="center">
+<img src="https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/678b2c74-1f8c-4568-a34f-6d3cfa829024" width="500"> <br>
+<img src="https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/8ecde853-692a-4201-8d18-de1545b0ae7b" width="300"> <br>
+<img src="https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/a57241f8-137f-4276-a305-f6bf0ea78cfe" width="500"> <br>
+</p>
 
 ### Entity Relationships
 
@@ -92,26 +91,35 @@ relationships occur in the database:
 
 1. favourites to menu_item: 1 to N
 2. login to favourites: 1 to N.
-
-![image](https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/d62917fd-a7bc-427d-9a63-6a6989b4a1a8)
+<p align="center">
+<img src="https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/d62917fd-a7bc-427d-9a63-6a6989b4a1a8)" width="500">
+</p>
 
 ### Flow of Data
 
 The following Data-Flow-Diagrams outlint the flow of data between all the functions implemented. The Context
 Diagram, a Level 0 DFD, depicts the data flow between the external entities and functions. A more detailed and
 internal depiction of the data flow between the entities and functions is shown through a Level 1 DFD below.
-
-![image](https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/c8417fd3-9d55-4b64-993c-81411e90b444)
-
-![image](https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/f54b40a9-2ad5-43bf-8ad8-f06ea477bf4a)
+<p align="center">
+<img src="https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/c8417fd3-9d55-4b64-993c-81411e90b444" width="500"> <br>
+<img src="https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/f54b40a9-2ad5-43bf-8ad8-f06ea477bf4a" width="500">
+</p>
 
 # Website Visuals
 ## Main Menu
-![image](https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/4bc21a5d-1aff-4c71-934f-78f319d0b26f)
+<p align="center">
+<img src="https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/4bc21a5d-1aff-4c71-934f-78f319d0b26f)" width="700">
+</p>
+
 ## Accounts Page
-![image](https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/aa0d66d6-d599-400d-96a1-59a17dbc7ef7)
+<p align="center">
+<img src="https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/aa0d66d6-d599-400d-96a1-59a17dbc7ef7)" width="700">
+</p>
+
 ## Menu Page
-![image](https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/03cd199d-652a-414b-9c60-91f3e3163091)
+<p align="center">
+<img src="https://github.com/kparnis3/CIS1054-Wb-Application-Architecture/assets/81303628/03cd199d-652a-414b-9c60-91f3e3163091)" width="700">
+</p>
 
 # Setup
 
